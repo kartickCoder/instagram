@@ -1,0 +1,52 @@
+.login-container{
+    margin: 5%;
+
+}
+.input-bg{
+    background-color: #f3f3f3;
+    color: #dbd5d5;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+.btn-custom{
+    background-color: rgb(74, 116, 148);
+    border-radius: 4px;
+    color: lightgray;
+    border: 1px solid rgb(74, 116, 148);
+}
+.uline{
+    text-decoration: none;
+}
+.btn-white{
+    background-color: white;
+    border: 1px solid white;
+}
+.img-h{
+    height: 80%;
+    display:block;
+}
+.img-s{
+    display: none;
+}
+@media only screen and (max-width:450px) {
+    .img-s{
+        display:block;
+        margin-bottom: 2.5rem;
+    }
+    .img-h{
+        display: none;
+    }
+    .card{
+        border: none !important;
+    }
+    .shadow{
+        box-shadow: none !important;
+    }
+    .form-control{
+        display: block!important;
+        width: 100% !important;
+    }
+}
+.fixed-top{
+    margin-bottom: 10%!important;
+}
